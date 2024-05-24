@@ -20,7 +20,7 @@ namespace PessoaTI20N
 
         public DAO()
         {
-            conexao = new MySqlConnection("server=localhost;Database=Regeneration;Uid=root;password=");
+            conexao = new MySqlConnection("server=localhost;Database=giovanna;Uid=root;password=");
             try
             {
                 conexao.Open();//Abrir a Conexão
